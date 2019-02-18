@@ -23,4 +23,10 @@ I followed this video to install Putty on Mac. [How to install Putty on Mac](htt
   * After downloading Quartz, right click the application, and follow the [steps]() here
 
 
+### **Problem solved**
+
+I tried to use command line to control Hadoop by Putty, but it didn't work, also it isn't mentioned in documatation, [here](https://community.hortonworks.com/questions/58247/hdp-25-sandboxvm-commandsscripts-are-not-found.html) it the link helped me solved the problem. 
+
 :smile:That's it, enjoy now!
+
+
