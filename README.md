@@ -25,7 +25,13 @@ I followed this video to install Putty on Mac. [How to install Putty on Mac](htt
 
 ### **Problem solved**
 
-I tried to use command line to control Hadoop by Putty, but it didn't work, also it isn't mentioned in documatation, [here](https://community.hortonworks.com/questions/58247/hdp-25-sandboxvm-commandsscripts-are-not-found.html) it the link helped me solved the problem. BTW, I changed the user as maria_dev which is the one I used in Ambari, instead of root as provided, the password is the same as the password you used in Ambari.
+I tried to use command line to control Hadoop by Putty, but it didn't work, also it isn't mentioned in documatation, [here](https://community.hortonworks.com/questions/58247/hdp-25-sandboxvm-commandsscripts-are-not-found.html) it the link helped me solved the problem. 
+
+BTW, I changed the user as maria_dev which is the one I used in Ambari, instead of root as provided, the password is the same as the password you used in Ambari. And then use
+```
+su root
+```
+To download packages you need, and the steps are the same as the link I provided.
 
 :smile:That's it, enjoy now!
 
