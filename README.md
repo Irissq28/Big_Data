@@ -21,7 +21,7 @@ Also, to get the access to Ambari by Terminal on Mac, Putty is needed. I followe
 
 * [Fix cannot display issue2: Quartz installation](https://www.xquartz.org)
 
-  * After downloading Quartz, right click the application, and follow the [steps]() here
+  * After downloading Quartz, right click the application, and follow the [steps](https://github.com/Irissq28/Big_Data/blob/master/Images/putty.jpeg) here
 
 
 ### **Problem solved**
