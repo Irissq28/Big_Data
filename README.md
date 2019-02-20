@@ -1,12 +1,13 @@
 # Big Data
 
-## Note
+## Depolyment and installation
+
 ### Sandbox Deployment
-I tried the method of Deploying Hortonworks Sandbox on VirtualBox, but with a limited 8 RAM on Mac and other constraints of this method, I decided built the Apache Ambari based on [Deploying Hortonworks Sandbox on Microsoft Azure](https://zh.hortonworks.com/tutorial/sandbox-deployment-and-install-guide/section/4/).
+I tried the method of Deploying Hortonworks Sandbox on VirtualBox, but with a limited 8 RAM on Mac and other constraints of this method, I decided built the Apache Ambari based on [Deploying Hortonworks Sandbox on Microsoft Azure](https://zh.hortonworks.com/tutorial/sandbox-deployment-and-install-guide/section/4/), and finally it works!
 
 [Here]() are the steps of **creating hortonworks data platform sandbox in Azure**, which are slightly different from the website.
 
-I followed this video to install Putty on Mac. [How to install Putty on Mac](https://www.youtube.com/watch?v=rblQ4y9coGg)
+Also, to get the access to Ambari by Terminal on Mac, Putty is needed. I followed this video to install Putty on Mac. [How to install Putty on Mac](https://www.youtube.com/watch?v=rblQ4y9coGg)
 
 ### **Some useful links**
 
