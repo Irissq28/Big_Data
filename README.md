@@ -34,6 +34,18 @@ su root
 ```
 To download packages you need, and the steps are the same as the link I provided.
 
+
+ ## Navigation
+
+
+|               | Quick links|
+| ------------- |-------------|
+|  :cat: | [Pig](https://github.com/Irissq28/Big_Data/tree/master/Pig) | 
+|  :dog: |[Spark](https://github.com/Irissq28/Big_Data/tree/master/Spark) | 
+|  :penguin: |[Hive](https://github.com/Irissq28/Big_Data/tree/master/Hive) | 
+| :monkey_face:  | |
+| :sheep: | |
+
 :smile:That's it, enjoy now!
 
 
