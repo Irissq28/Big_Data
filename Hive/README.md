@@ -15,6 +15,8 @@ After you download the MySQL file, run
 mysql -u root -p
 ```
 
+Default password is *Hadoop*
+
 <img align ="center" src="https://github.com/Irissq28/Big_Data/blob/master/Images/putty.png" width="400" height="300"/>
 
 
@@ -36,19 +38,34 @@ exit
 
 ### Use Sqooq to import data from SQL to HDFS/HIVE 
 
+
+let's get the permission to sql, then sqooq can talk to it.
+
+```
+mysql -u root -p
+```
+
 ```
 GRANT ALL PRIVILEGES ON <DATABASE>.* to ''@'localhost';
 ```
 
 We Specify 1 mapper here.
+
+```
+exit
+```
+
 *To HDFS*
+
+
 ```
 sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies -m 1
 ```
 
 To Hive
 ```
-sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies -m 1 --hive -import
+sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies -m 1 --hive-import
+
 ```
 
 
