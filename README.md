@@ -26,13 +26,20 @@ Also, to get the access to Ambari by Terminal on Mac, Putty is needed. I followe
 
 ### **Problem solved**
 
-I tried to use command line to control Hadoop by Putty, but it didn't work, also it isn't mentioned in documatation, [here](https://community.hortonworks.com/questions/58247/hdp-25-sandboxvm-commandsscripts-are-not-found.html) it the link helped me solved the problem. 
+    1. I tried to use command line to control Hadoop by Putty, but it didn't work, also it isn't mentioned in documatation, [here](https://community.hortonworks.com/questions/58247/hdp-25-sandboxvm-commandsscripts-are-not-found.html) it the link helped me solved the problem. 
 
 BTW, I changed the user as maria_dev which is the one I used in Ambari, instead of root as provided, the password is the same as the password you used in Ambari. And then use
 ```
 su root
 ```
 To download packages you need, and the steps are the same as the link I provided.
+
+   2. After run the azure, the status is "running", but i cannot ssh in terminal, the error like this:
+   ```
+   Hortonworks system is booting up. see pam_nologin(8) 
+   mypublic_ipaddress connection closed by port 22
+   ```
+   I reset the password in azure "Reset password" section, and then problem solved.
 
 
  ## Navigation
