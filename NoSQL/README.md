@@ -51,5 +51,11 @@ scan 'users'
 
 <img align ="center" src="https://github.com/Irissq28/Big_Data/blob/master/NoSQL/HBase/image/disable_drop.png" width="400" height="300"/>
 
+*Exit the HBase Shell*
+
+```
+exit
+```
+
 
 After all things done, remember to shut down the HBase service in Ambari.
