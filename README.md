@@ -32,6 +32,8 @@ BTW, I changed the user as maria_dev which is the one I used in Ambari, instead 
 ```
 su root
 ```
+![root](https://github.com/Irissq28/Big_Data/blob/master/Images/root.png)
+
 To download packages you need, and the steps are the same as the link I provided.
 
 * After run the azure, the status is "running", but i cannot ssh in terminal, the error like this:
