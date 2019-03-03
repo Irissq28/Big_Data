@@ -62,8 +62,8 @@ After all things done, remember to shut down the HBase service in Ambari.
 
 ## MongoDB
 
-Install MongoDB first.
+Installing MongoDB first.
 
-```
+<img align ="center" src="https://github.com/Irissq28/Big_Data/blob/master/NoSQL/pic/mongo.png" width="400" height="300"/>
 
-```
+Then, open Ambari and go to leftside bar, **ACTIONS** -> **ADD SERVICE** CHOOSE MONGODB, you just added, I use default setting here.
