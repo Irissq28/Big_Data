@@ -59,3 +59,11 @@ exit
 
 
 After all things done, remember to shut down the HBase service in Ambari.
+
+## MongoDB
+
+Install MongoDB first.
+
+```
+
+```
